@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.List;
 
+// if we wanted to add somthing by hand
 @Configuration
 public class config {
     @Bean
@@ -15,7 +16,7 @@ public class config {
                     1,
                     "fahad",
                     "hey?",
-                    "fah4232@gmail.com"
+                    "faah4232@gmail.com"
             );
             Ischema khaled =new Ischema(
                     2,
