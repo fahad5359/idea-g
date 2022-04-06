@@ -26,6 +26,7 @@ public class Icontroller {
     public void addIdeeas(@RequestBody Ischema ischema){
 //        the @requistbody will take the values coming from the rerquist  coming from the user and add
 //        to the  schema
+        System.out.println("awsdiuhk");
         iservice.addNewIdeea(ischema);
     }
 }
