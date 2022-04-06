@@ -13,14 +13,14 @@ public class Iservice {
     public Iservice(Idao idao) {
         this.idao = idao;
     }
+//
 
     public List<Ischema> geALLIdeeas(){
         return idao.findAll();
     }
-
+// in here we
     public void addNewIdeea(Ischema ischema) {
 //        bellow we can print the  requisted schema  coming from the user(he wants to add)
         System.out.println(ischema);
-
     }
 }
