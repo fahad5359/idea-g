@@ -9,24 +9,18 @@ import java.util.List;
 // if we wanted to add somthing by hand
 @Configuration
 public class config {
-//    @Bean
-//    CommandLineRunner commandLineRunner(Idao idao){
-//        return args -> {
-//            Ischema Fahad =new Ischema(
-//                    1,
-//                    "fahad",
-//                    "hey?",
-//                    "faah4232@gmail.com"
-//            );
-//            Ischema khaled =new Ischema(
-//                    2,
-//                    "khaled",
-//                    "new  coffe machine",
-//                    "kall23ew2@gmail.com"
-//            );
-//
-//            idao.saveAll(List.of(Fahad,khaled)
-//            );
-//        };
-//    }
+    @Bean
+    CommandLineRunner commandLineRunner(Idao idao){
+        return args -> {
+          Ischema ali= new Ischema(
+                  2,
+                  "ali",
+                  "asjuhiuahddsi",
+                  "ali@gmai.conmdj"
+          );
+
+            idao.saveAll(List.of(ali)
+            );
+        };
+    }
 }
