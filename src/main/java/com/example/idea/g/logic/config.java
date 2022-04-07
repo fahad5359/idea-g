@@ -13,7 +13,7 @@ public class config {
     CommandLineRunner commandLineRunner(Idao idao){
         return args -> {
           Ischema ali= new Ischema(
-                  2,
+                  1,
                   "ali",
                   "asjuhiuahddsi",
                   "ali@gmai.conmdj"
