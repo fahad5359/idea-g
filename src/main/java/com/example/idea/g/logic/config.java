@@ -12,15 +12,15 @@ public class config {
     @Bean
     CommandLineRunner commandLineRunner(Idao idao){
         return args -> {
-          Ischema ali= new Ischema(
-                  1,
-                  "ali",
-                  "asjuhiuahddsi",
-                  "ali@gmai.conmdj"
-          );
-
-            idao.saveAll(List.of(ali)
-            );
+//          Ischema ali= new Ischema(
+//                  1,
+//                  "ali",
+//                  "asjuhiuahddsi",
+//                  "ali@gmai.conmdj"
+//          );
+//
+//            idao.saveAll(List.of(ali)
+//            );
         };
     }
 }
