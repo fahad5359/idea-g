@@ -28,6 +28,6 @@ public class Iservice {
            throw new IllegalStateException("Dog Email Is Taken");
         }
         idao.save(ischema);
-        System.out.println(ischema);
+        System.out.println("Saved !!"+ischema);
     }
 }
