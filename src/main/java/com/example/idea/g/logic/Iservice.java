@@ -30,4 +30,12 @@ public class Iservice {
         idao.save(ischema);
         System.out.println("Saved !!"+ischema);
     }
+// the function takes the type and the var
+    public void delIdeea(Long idAmk) {
+        boolean exists = idao.existsById(idAmk);
+        if (!exists){
+            throw new IllegalStateException("Dog the student"+idAmk+"Is not here");
+        }
+        idao.deleteById(idAmk);
+    }
 }

@@ -29,4 +29,9 @@ public class Icontroller {
 //        to the  schema
         iservice.addNewIdeea(ischema);
     }
+    @DeleteMapping(path = "{idAmk}")
+    public void deleteideea(@PathVariable("idAmk") Long idAmk){
+//        Spicfy the time and nem of the var?
+        iservice.delIdeea(idAmk);
+    }
 }
